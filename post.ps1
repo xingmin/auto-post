@@ -105,6 +105,6 @@ if($myinvocation.CommandOrigin -eq [System.Management.Automation.CommandOrigin]:
  
 	#[System.Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic') | Out-Null
 	#$interval = [Microsoft.VisualBasic.Interaction]::InputBox("请输入自动投票间隔：", "自动投票间隔", 5) 
-	Auto-Post -listfile ".\test.proxy" -interval 5
+	Auto-Post -listfile ".\test.proxy" -interval 5 -count 2
  
 }

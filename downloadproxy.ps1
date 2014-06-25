@@ -96,5 +96,6 @@ if($myinvocation.CommandOrigin -eq [System.Management.Automation.CommandOrigin]:
 #	Get-ProxyList -url $url
 #	Get-AllProxyList2File -url $url -listfile "d:\test.txt"
 	Get-FilteredProxyList "d:\test.txt"
+	##
 }
 
